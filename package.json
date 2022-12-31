@@ -1,0 +1,29 @@
+{
+  "name": "housematehub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "build": "turbo build",
+    "dev": "turbo dev"
+  },
+  "keywords": [],
+  "author": "Federico Vitale <mail@fedevitale.dev>",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.0",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-tailwindcss": "^3.7.1",
+    "turbo": "^1.6.3",
+    "typescript": "^4.9.4",
+    "vite-tsconfig-paths": "^4.0.3",
+    "vitest": "^0.25.8"
+  }
+}

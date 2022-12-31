@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "apps/server",
+  # add your rust internal crates here 
+  "crates/models"
+]
+

@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cargo test",
+    "build": "cargo build",
+    "lint": "cargo fmt && cargo clippy",
+    "dev": "RUST_LOG=server=debug cargo watch -x run"
+  },
+  "keywords": [
+    "rust",
+    "server"
+  ],
+  "author": "Federico Vitale <mail@fedevitale.dev>",
+  "license": "ISC",
+  "private": true
+}
